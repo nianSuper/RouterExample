@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scheme1</key>
+	<dict>
+		<key>testa</key>
+		<dict>
+			<key>responseClass</key>
+			<string>TestAViewController</string>
+			<key>spring</key>
+			<integer>0</integer>
+		</dict>
+		<key>testb</key>
+		<dict>
+			<key>responseClass</key>
+			<string>TestBViewController</string>
+			<key>spring</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

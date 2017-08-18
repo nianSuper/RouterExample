@@ -14,6 +14,15 @@
 		BF1F89831F42CF6A005B6373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1F89811F42CF6A005B6373 /* LaunchScreen.storyboard */; };
 		BF1F898E1F42CF6A005B6373 /* QRCOpenUrlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F898D1F42CF6A005B6373 /* QRCOpenUrlTests.swift */; };
 		BF1F89991F42CF6A005B6373 /* QRCOpenUrlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F89981F42CF6A005B6373 /* QRCOpenUrlUITests.swift */; };
+		BF1F89AD1F42D183005B6373 /* QRCOpenUrlData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F89AC1F42D183005B6373 /* QRCOpenUrlData.swift */; };
+		BF1F89AF1F42D195005B6373 /* QRCOpenUrlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F89AE1F42D195005B6373 /* QRCOpenUrlManager.swift */; };
+		BF1F89B11F43F9A7005B6373 /* QRCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F89B01F43F9A7005B6373 /* QRCViewController.swift */; };
+		BF1F89B31F43F9D4005B6373 /* QRCViewControleer_OpenUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F89B21F43F9D4005B6373 /* QRCViewControleer_OpenUrl.swift */; };
+		BF1F89B51F43FA07005B6373 /* QRCOpenUrl.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF1F89B41F43FA07005B6373 /* QRCOpenUrl.plist */; };
+		BF1F89B91F43FAF0005B6373 /* TestAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F89B81F43FAF0005B6373 /* TestAViewController.swift */; };
+		BF1F89BB1F43FB07005B6373 /* TestBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F89BA1F43FB07005B6373 /* TestBViewController.swift */; };
+		BF1F89BD1F440E8F005B6373 /* NSDictionary_TypeCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F89BC1F440E8F005B6373 /* NSDictionary_TypeCast.swift */; };
+		BF1F89BF1F46B6CD005B6373 /* QRCStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F89BE1F46B6CD005B6373 /* QRCStringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		BF1F89941F42CF6A005B6373 /* QRCOpenUrlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCOpenUrlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1F89981F42CF6A005B6373 /* QRCOpenUrlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCOpenUrlUITests.swift; sourceTree = "<group>"; };
 		BF1F899A1F42CF6A005B6373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1F89AC1F42D183005B6373 /* QRCOpenUrlData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCOpenUrlData.swift; sourceTree = "<group>"; };
+		BF1F89AE1F42D195005B6373 /* QRCOpenUrlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCOpenUrlManager.swift; sourceTree = "<group>"; };
+		BF1F89B01F43F9A7005B6373 /* QRCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCViewController.swift; sourceTree = "<group>"; };
+		BF1F89B21F43F9D4005B6373 /* QRCViewControleer_OpenUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCViewControleer_OpenUrl.swift; sourceTree = "<group>"; };
+		BF1F89B41F43FA07005B6373 /* QRCOpenUrl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QRCOpenUrl.plist; sourceTree = "<group>"; };
+		BF1F89B81F43FAF0005B6373 /* TestAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAViewController.swift; sourceTree = "<group>"; };
+		BF1F89BA1F43FB07005B6373 /* TestBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestBViewController.swift; sourceTree = "<group>"; };
+		BF1F89BC1F440E8F005B6373 /* NSDictionary_TypeCast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDictionary_TypeCast.swift; sourceTree = "<group>"; };
+		BF1F89BE1F46B6CD005B6373 /* QRCStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCStringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +115,12 @@
 		BF1F89771F42CF6A005B6373 /* QRCOpenUrl */ = {
 			isa = PBXGroup;
 			children = (
+				BF1F89A61F42CFAA005B6373 /* Source */,
+				BF1F89A71F42CFAA005B6373 /* Tool */,
 				BF1F89781F42CF6A005B6373 /* AppDelegate.swift */,
 				BF1F897A1F42CF6A005B6373 /* ViewController.swift */,
+				BF1F89B81F43FAF0005B6373 /* TestAViewController.swift */,
+				BF1F89BA1F43FB07005B6373 /* TestBViewController.swift */,
 				BF1F897C1F42CF6A005B6373 /* Main.storyboard */,
 				BF1F897F1F42CF6A005B6373 /* Assets.xcassets */,
 				BF1F89811F42CF6A005B6373 /* LaunchScreen.storyboard */,
@@ -124,6 +146,27 @@
 			);
 			path = QRCOpenUrlUITests;
 			sourceTree = "<group>";
+		};
+		BF1F89A61F42CFAA005B6373 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BF1F89AC1F42D183005B6373 /* QRCOpenUrlData.swift */,
+				BF1F89AE1F42D195005B6373 /* QRCOpenUrlManager.swift */,
+				BF1F89B01F43F9A7005B6373 /* QRCViewController.swift */,
+				BF1F89B21F43F9D4005B6373 /* QRCViewControleer_OpenUrl.swift */,
+				BF1F89B41F43FA07005B6373 /* QRCOpenUrl.plist */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF1F89A71F42CFAA005B6373 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				BF1F89BC1F440E8F005B6373 /* NSDictionary_TypeCast.swift */,
+				BF1F89BE1F46B6CD005B6373 /* QRCStringExtension.swift */,
+			);
+			path = Tool;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -236,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF1F89831F42CF6A005B6373 /* LaunchScreen.storyboard in Resources */,
+				BF1F89B51F43FA07005B6373 /* QRCOpenUrl.plist in Resources */,
 				BF1F89801F42CF6A005B6373 /* Assets.xcassets in Resources */,
 				BF1F897E1F42CF6A005B6373 /* Main.storyboard in Resources */,
 			);
@@ -262,8 +306,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1F89AF1F42D195005B6373 /* QRCOpenUrlManager.swift in Sources */,
+				BF1F89AD1F42D183005B6373 /* QRCOpenUrlData.swift in Sources */,
+				BF1F89B31F43F9D4005B6373 /* QRCViewControleer_OpenUrl.swift in Sources */,
+				BF1F89B91F43FAF0005B6373 /* TestAViewController.swift in Sources */,
 				BF1F897B1F42CF6A005B6373 /* ViewController.swift in Sources */,
+				BF1F89BB1F43FB07005B6373 /* TestBViewController.swift in Sources */,
+				BF1F89BD1F440E8F005B6373 /* NSDictionary_TypeCast.swift in Sources */,
 				BF1F89791F42CF6A005B6373 /* AppDelegate.swift in Sources */,
+				BF1F89B11F43F9A7005B6373 /* QRCViewController.swift in Sources */,
+				BF1F89BF1F46B6CD005B6373 /* QRCStringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
